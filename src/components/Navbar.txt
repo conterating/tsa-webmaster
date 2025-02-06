@@ -1,0 +1,3 @@
+Primary Font - Open Sans
+Secondary Font - Source Sans 3
+Accent Font- Lora
