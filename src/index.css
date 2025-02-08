@@ -1,4 +1,53 @@
+/* General styles for the website */
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+button {
+  background-color: #b3dec1;
+  color: #210124;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #210124;
+  color: #b3dec1;
+}
+
+footer {
+  background-color: #210124;
+  color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.socialLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.socialLinks li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.socialLinks li a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.heroSection, .resourcesSection, .appointmentsSection, .aboutUsSection {
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #210124;
 }
